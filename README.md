@@ -78,7 +78,7 @@ To run this tutorial, you need tools that are available in a GitHub repository, 
 
 In Cloud Shell, clone the GitHub repository that contains the sample code and change directories to the folder the repository was cloned to:
 
-git clone https://github.com/fordesmith/hpc-monte-carloFS.git;
+git clone https://github.com/fordesmith/GCP_HTCONDOR_EXPOSURE.git;
 
 The sample code has a makefile that drives most of the commands you perform. The commands in the makefile are mostly wrappers around gcloud commands. The sample code has directories for the following:
 
