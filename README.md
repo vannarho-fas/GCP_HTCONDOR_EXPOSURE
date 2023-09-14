@@ -256,10 +256,7 @@ The last line submits 4 jobs that correspond to the first 4 stocks in the stock 
 Each Monte Carlo simulation is started by using the run_montecarlo.sh shell script file:
 
 '#! /bin/bash
-'# script that initiates the random walk.
-'# takes one argument which is the index into the sp500.csv to
-'# identify which stock to simulate.
-'#
+
 index=$(($1 + 2))
 stockfile=companies.csv
 stock=$(awk "NR == ${index} {print; exit}" ${stockfile} | cut -d, -f1)
